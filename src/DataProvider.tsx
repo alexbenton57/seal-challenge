@@ -48,12 +48,8 @@ const original_columns: Ifc.IColumn[] = [
 
 const initial_aggregates: Ifc.IAggregate[] = [
   {
-    type: 'max',
+    type: 'mean',
     index: 0,
-  },
-  {
-    type: 'min',
-    index: 1,
   },
 ];
 

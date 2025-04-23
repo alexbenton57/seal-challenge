@@ -9,7 +9,6 @@ import {
 } from '@blueprintjs/table';
 
 import * as Ifc from './interfaces';
-import { ContextMenu, Menu, MenuItem } from '@blueprintjs/core';
 
 const OpviaTable: React.FC<Ifc.IOpviaTableProps> = ({
   columns,

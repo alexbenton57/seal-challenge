@@ -1,8 +1,6 @@
 import * as React from 'react';
-import Modal from 'react-modal';
-
 import * as Ifc from './interfaces';
-import { Select, ItemPredicate, ItemRenderer } from '@blueprintjs/select';
+import { Select, ItemRenderer } from '@blueprintjs/select';
 import {
   Button,
   MenuItem,
@@ -11,20 +9,6 @@ import {
   Overlay2,
   Divider,
 } from '@blueprintjs/core';
-import { Input } from '@blueprintjs/icons';
-Modal.setAppElement('#root');
-
-const modalStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    width: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-  },
-};
 
 export const operations = [
   'Plus',
@@ -33,11 +17,6 @@ export const operations = [
   'Divided by',
   'Derivative w.r.t.',
 ];
-const operationsOptions = operations.map((op) => (
-  <option key={op} value={op}>
-    {op}
-  </option>
-));
 
 const AddColumnModal: React.FC<Ifc.IAddColumnModalProps> = ({
   modalIsOpen,

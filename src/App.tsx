@@ -1,4 +1,4 @@
-import { Classes, OverlaysProvider } from '@blueprintjs/core';
+import { OverlaysProvider } from '@blueprintjs/core';
 import React from 'react';
 import './App.css';
 import DataProvider from './DataProvider';

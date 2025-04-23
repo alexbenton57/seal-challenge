@@ -45,6 +45,7 @@ Put any notes and your instructions in the README as well as what you would do n
 
 - Ability to add new, derived columns - also included a default derived column as an example
     - Feature accessed through an 'Add Column' button in the header row of both tables
+        - Using this feature will add the column to both tables
     - Derived columns have a right click context menu allowing editing of options and deletion
     - Derived columns can be added, subtracted, multiplied or divided together
         - Some operations are not supported for the time column

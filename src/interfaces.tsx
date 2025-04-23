@@ -1,4 +1,3 @@
-import { dummyTableData } from './data/dummyData';
 import * as React from 'react';
 
 export interface IColumn {
